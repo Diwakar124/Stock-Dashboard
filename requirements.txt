@@ -2,7 +2,6 @@ streamlit
 pandas 
 yfinance 
 requests
-BeautifulSoup
-plotly.graph_objects 
-datetime 
-timedelta
+BeautifulSoup4
+plotly
+

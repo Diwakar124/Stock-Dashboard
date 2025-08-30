@@ -1,6 +1,6 @@
 import streamlit as st
-import pandas as pd
 import yfinance as yf
+import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 import plotly.graph_objects as go
@@ -193,4 +193,5 @@ if analyze_button and ticker_input:
         # This message will show if get_stock_data returned None or an empty dataframe
         st.error("Could not retrieve data. Please confirm the ticker symbol and selected date range.")
 else:
+
     st.info("Enter a stock ticker and click 'Analyze Stock' to see the dashboard.")

@@ -1,5 +1,8 @@
-streamlit
-yfinance
+streamlit 
+pandas 
+yfinance 
 requests
-beautifulsoup4
-pandas
+BeautifulSoup
+plotly.graph_objects 
+datetime 
+timedelta
